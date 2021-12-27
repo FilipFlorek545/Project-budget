@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <h1><span id="header"></span></h1>
+    <div id="container">
+      <div id="left_table">
+        <div id="header_przychody">
+          <h2>PRZYCHODY</h2>
+          <input
+            name="typ"
+            type="text"
+            id="przychody_rodzaj"
+            value=""
+            placeholder="Nazwa przychodu"
+          />
+          <input
+            name="amount"
+            type="text"
+            id="przychody_kwota"
+            value=""
+            placeholder="Kwota"
+          />
+          <button id="btn_add_income">Dodaj</button>
+        </div>
+        <ul id="lista_przychody"></ul>
+        <p id="suma_przychodow">Uzupełnij mnie :)</p>
+      </div>
+      <div id="right_table">
+        <div id="header_wydatki">
+          <h2>WYDATKI</h2>
+          <input type="text" id="wydatki_rodzaj" placeholder="Nazwa wydatku" />
+          <input type="text" id="wydatki_kwota" placeholder="Kwota" />
+          <button id="btn_add_expenses">Dodaj</button>
+        </div>
+        <ul id="lista_wydatki"></ul>
+        <p id="suma_wydatkow">Uzupełnij mnie :)</p>
+      </div>
+    </div>
+    <footer>
+      Dziekujemy za użycie najbardziej amatorskiego programu w sieci :)
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

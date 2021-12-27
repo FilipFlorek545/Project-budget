@@ -1,0 +1,36 @@
+#container {
+  display: flex;
+  justify-content: center;
+}
+#left_table,
+#right_table,
+h1 span,
+footer {
+  border-radius: 25px;
+  border: 1px solid black;
+  background-color: white;
+}
+#header_przychody,
+#header_wydatki,
+footer {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+h1,
+h2 {
+  text-align: center;
+}
+body {
+  background-image: url("images/background_img.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+h1 span,
+p {
+  padding: 10px;
+}
+footer {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
